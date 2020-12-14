@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:fsf_zoller_textanimation/Resources/Private/Language/locallang_db" date="2020-12-14T11:14:18Z" product-name="fsf_zoller_textanimation">
+		<header/>
+		<body>
+			<trans-unit id="tx_fsfzollertextanimation_domain_model_textanimation" resname="tx_fsfzollertextanimation_domain_model_textanimation">
+				<source>Text Animation</source>
+			</trans-unit>
+			<trans-unit id="tx_fsf_zoller_textanimation_fsfzollertextanimation.name" resname="tx_fsf_zoller_textanimation_fsfzollertextanimation.name">
+				<source>Zoller Text Animation Background</source>
+			</trans-unit>
+			<trans-unit id="tx_fsf_zoller_textanimation_fsfzollertextanimation.description" resname="tx_fsf_zoller_textanimation_fsfzollertextanimation.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

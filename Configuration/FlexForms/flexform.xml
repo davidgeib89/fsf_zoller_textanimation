@@ -23,13 +23,17 @@
                     </settings.headline>
                     <settings.text>
                     <TCEforms>
-                            <label>Unterüberschrift</label>
-                            <config>
-                                <type>input</type>
-                                <eval>trim</eval>
-                                <size>230</size>
-                            </config>
-                        </TCEforms>
+                        <label>Unterüberschrift</label>
+                        <config>
+                            <type>text</type>
+                            <rows>5</rows>
+                            <cols>30</cols>
+                            <eval>trim,required</eval>
+                            <max>100</max>
+                            <enableRichtext>1</enableRichtext>
+                            <richtextConfiguration>default</richtextConfiguration>
+                        </config>
+                    </TCEforms>
                     </settings.text>
                     <settings.buttontext1>
                         <TCEforms>
@@ -62,7 +66,7 @@
 								<internal_type>file</internal_type>
 								<allowed>gif, jpg,jpeg,png,csv</allowed>
 								<max_size>10000</max_size>
-								<uploadfolder>uploads/tx_fsfzollersimpleheader</uploadfolder>
+								<uploadfolder>uploads/tx_fsfzollerheader</uploadfolder>
 								<maxitems>1</maxitems>
 								<size>1</size>
 								<selectedliststyle>Width:180px</selectedliststyle>
@@ -77,13 +81,13 @@
 									<internal_type>file</internal_type>
 									<allowed>mp4</allowed>
 									<max_size>10000</max_size>
-									<uploadfolder>uploads/tx_fsfzollersimpleheader</uploadfolder>
+									<uploadfolder>uploads/tx_fsfzollerheader</uploadfolder>
 									<maxitems>1</maxitems>
 									<size>1</size>
 									<selectedliststyle>Width:180px</selectedliststyle>
 								</config>
 							</TCEforms>
-					</settings.video>
+						</settings.video>
                 </el>
             </ROOT>
         </sheet1>

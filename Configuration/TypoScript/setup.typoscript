@@ -57,3 +57,13 @@ plugin.tx_fsfzollertextanimation._CSS_DEFAULT_STYLE (
         color:green;
     }
 )
+
+page{
+	includeCSS{
+		fsfzollertextanimation =  EXT:fsf_zoller_textanimation/Resources/Public/css/fsf_zoller_textanimation.css
+      
+	}
+	includeJSFooterlibs {
+        fsfzollertextanimationjs =  EXT:fsf_zoller_textanimation/Resources/Public/js/main.js
+    }
+}

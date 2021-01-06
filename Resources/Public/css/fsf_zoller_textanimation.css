@@ -111,9 +111,22 @@
 }
 
 /*html 5 animation*/
-#canvas {
+#canvas-textanimation {
     display: block;
     margin: 5vh auto;
     border-radius: 50%;
     box-shadow: 0 5px 14px black;
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 1200px) {
+    #canvas-textanimation {
+        display: block;
+        margin: 5vh auto;
+        border-radius: 50%;
+        box-shadow: 0 5px 14px black;
+        width: 280px;
+        height: 280px;
+    }  
 }

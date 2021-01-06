@@ -28,7 +28,7 @@
                             <type>text</type>
                             <rows>5</rows>
                             <cols>30</cols>
-                            <eval>trim,required</eval>
+                            <eval>trim</eval>
                             <max>100</max>
                             <enableRichtext>1</enableRichtext>
                             <richtextConfiguration>default</richtextConfiguration>
@@ -66,28 +66,38 @@
 								<internal_type>file</internal_type>
 								<allowed>gif, jpg,jpeg,png,csv</allowed>
 								<max_size>10000</max_size>
-								<uploadfolder>uploads/tx_fsfzollerheader</uploadfolder>
+								<uploadfolder>uploads/tx_fsfzollertextanimation</uploadfolder>
 								<maxitems>1</maxitems>
 								<size>1</size>
 								<selectedliststyle>Width:180px</selectedliststyle>
 							</config>
 						</TCEforms>
 					</settings.img1>
-                    <settings.video>
-							<TCEforms>
-								<label>Video/Animation</label>
-								<config>
-									<type>group</type>
-									<internal_type>file</internal_type>
-									<allowed>mp4</allowed>
-									<max_size>10000</max_size>
-									<uploadfolder>uploads/tx_fsfzollerheader</uploadfolder>
-									<maxitems>1</maxitems>
-									<size>1</size>
-									<selectedliststyle>Width:180px</selectedliststyle>
-								</config>
-							</TCEforms>
-						</settings.video>
+                    <settings.img2>
+						<TCEforms>
+							<label>Bild rechts</label>
+							<config>										
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>gif, jpg,jpeg,png,csv</allowed>
+								<max_size>10000</max_size>
+								<uploadfolder>uploads/tx_fsfzollertextanimation</uploadfolder>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<selectedliststyle>Width:180px</selectedliststyle>
+							</config>
+						</TCEforms>
+					</settings.img2>
+                    <settings.animation>
+						<TCEforms>
+							<label>HTML5 Animation</label>
+                            <config>
+                            <type>text</type>
+                            <cols>24</cols>
+                            <rows>3</rows>
+                            </config>
+						</TCEforms>
+					</settings.animation>
                 </el>
             </ROOT>
         </sheet1>

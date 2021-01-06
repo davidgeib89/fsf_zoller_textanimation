@@ -2,10 +2,30 @@
     <div
         class="header-image"
         style="
-            background-image: url(/uploads/tx_fsfzollerheader/{settings.img1});
+            background-image: url(/uploads/tx_fsfzollertextanimation/{settings.img1});
         "
-        fsf-zoller-header
     >
+        <div class="header-animation">
+            <f:if condition="{settings.animation}">
+                <f:then>
+
+                    <canvas id="canvas" width="400" height="400"></canvas>
+                    <f:format.htmlentitiesDecode>
+                        <script>
+                            {settings.animation}
+                        </script>
+                    </f:format.htmlentitiesDecode>
+                </f:then>
+                <f:else>
+                    <f:if condition="{settings.img2}">
+                        <f:image
+                            class="animation-placeholder"
+                            src="/uploads/tx_fsfzollertextanimation/{settings.img2}"
+                        />
+                    </f:if>
+                </f:else>
+            </f:if>
+        </div>
         <div class="header-text">
             <f:if condition="{settings.headline}">
                 <h1>{settings.headline}</h1>
@@ -15,17 +35,11 @@
             </f:if>
             <f:if condition="{settings.buttontext1}">
                 <f:link.typolink parameter="{settings.url1}" target="_blank">
-                    <button class="btn btn-yellow">{settings.buttontext1}</button>
+                    <button class="btn btn-yellow">
+                        {settings.buttontext1}
+                    </button>
                 </f:link.typolink>
-            </f:if>  
+            </f:if>
         </div>
-    </div>
-    <div class="scrolldown-button next-viewport-down">
-        <img
-            class="scrolldown-image"
-            src="/typo3conf/ext/bootstrap_package/Resources/Public/Icons/black/arrow-down.svg"
-            title=""
-            alt=""
-        />
     </div>
 </div>

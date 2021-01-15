@@ -2,6 +2,7 @@
 
 .fsf-zoller-textanimation {
     position: relative;
+    margin-bottom:150px;
 }
 
 .fsf-zoller-textanimation .header-image {
@@ -66,6 +67,11 @@
 }
 
 @media (max-width: 1200px) {
+    .fsf-zoller-textanimation {
+        position: relative;
+        margin-bottom:30px;
+    }
+
     .fsf-zoller-textanimation .header-text h1 {
         font-size: 36px;
         color: #ffffff;

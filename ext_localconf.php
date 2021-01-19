@@ -24,7 +24,7 @@ call_user_func(
                     elements {
                         fsfzollertextanimation {
                             iconIdentifier = fsf_zoller_textanimation-plugin-fsfzollertextanimation
-                            title = LLL:EXT:fsf_zoller_textanimation/Resources/Private/Language/locallang_db.xlf:tx_fsf_zoller_textanimation_fsfzollertextanimation.name
+                            title = Text Animation Background
                             description = LLL:EXT:fsf_zoller_textanimation/Resources/Private/Language/locallang_db.xlf:tx_fsf_zoller_textanimation_fsfzollertextanimation.description
                             tt_content_defValues {
                                 CType = list

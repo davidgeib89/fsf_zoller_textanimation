@@ -41,7 +41,7 @@
     max-width: 30%;
 }
 
-.fsf-zoller-textanimation .header-text h1 {
+.fsf-zoller-textanimation .header-text h2 {
     font-size: 48px;
     color: #ffffff;
     font-weight: bold;
@@ -72,7 +72,7 @@
         margin-bottom:30px;
     }
 
-    .fsf-zoller-textanimation .header-text h1 {
+    .fsf-zoller-textanimation .header-text h2 {
         font-size: 36px;
         color: #ffffff;
         font-weight: bold;

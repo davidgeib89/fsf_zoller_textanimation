@@ -11,6 +11,14 @@
                 </TCEforms>
                 <type>array</type>
                 <el>
+                    <settings.marginbottom>
+                        <TCEforms>
+                            <label>Abstand nach Unten</label>
+							<config>
+							<type>check</type>
+							</config>
+                        </TCEforms>
+                    </settings.marginbottom>
                     <settings.headline>
                         <TCEforms>
                             <label>Überschrift</label>

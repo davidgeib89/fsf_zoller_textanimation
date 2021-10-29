@@ -19,6 +19,14 @@
 							</config>
                         </TCEforms>
                     </settings.marginbottom>
+                    <settings.colorblack>
+                        <TCEforms>
+                            <label>Schriftfarbe schwarz</label>
+							<config>
+							<type>check</type>
+							</config>
+                        </TCEforms>
+                    </settings.colorblack>
                     <settings.headline>
                         <TCEforms>
                             <label>Überschrift</label>

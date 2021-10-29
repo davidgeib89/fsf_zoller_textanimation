@@ -5,7 +5,7 @@
 }
 
 .fsf-zoller-textanimation.fsf-zoller-textanimation-margin-bottom {
-    margin-bottom:150px!important;
+    margin-bottom: 150px !important;
 }
 
 .fsf-zoller-textanimation .header-image {
@@ -32,6 +32,9 @@
     width: 100%;
     max-width: 30%;
 }
+.fsf-zoller-textanimation.fsf-zoller-textanimation-black .header-text {
+    color: #000;
+}
 
 .fsf-zoller-textanimation .header-animation {
     text-align: left;
@@ -44,6 +47,10 @@
     max-width: 30%;
 }
 
+.fsf-zoller-textanimation.fsf-zoller-textanimation-black .header-animation {
+    color: #000;
+}
+
 .fsf-zoller-textanimation .header-text h2 {
     font-size: 48px;
     color: #ffffff;
@@ -51,10 +58,18 @@
     margin-bottom: 20px;
 }
 
+.fsf-zoller-textanimation.fsf-zoller-textanimation-black .header-text h2 {
+    color: #000;
+}
+
 .fsf-zoller-textanimation .header-text h3 {
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 30px;
+}
+
+.fsf-zoller-textanimation.fsf-zoller-textanimation-black .header-text h3 {
+    color: #000;
 }
 
 .fsf-zoller-textanimation .scrolldown-image {
@@ -72,7 +87,7 @@
 @media (max-width: 1200px) {
     .fsf-zoller-textanimation {
         position: relative;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
 
     .fsf-zoller-textanimation .header-text h2 {
@@ -137,5 +152,5 @@
         box-shadow: 0 5px 14px black;
         width: 280px;
         height: 280px;
-    }  
+    }
 }
